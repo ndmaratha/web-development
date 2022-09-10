@@ -1,0 +1,16 @@
+html{
+    font-size: 22px;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+a{
+    color: rgb(226, 16, 16);
+}
+a:visited{
+color: rgb(193, 248, 13);
+}
+a:hover,a:active{
+    color: #eee;
+}
