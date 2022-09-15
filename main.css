@@ -14,3 +14,10 @@ color: rgb(193, 248, 13);
 a:hover,a:active{
     color: #eee;
 }
+
+table,tr,th,td,caption{
+    border: 1px solid #eee;
+    font-family:'courier new','Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
