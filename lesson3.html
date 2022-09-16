@@ -8,7 +8,12 @@
     <title>table</title>
 </head>
 <body>
-
+   <nav>
+    <ul>
+        <li><a href="#form">form</a></li>
+    </ul>
+   </nav>
+   <hr>
     <aside>
         <details>
             <summary>my daily schedual</summary>
@@ -57,5 +62,50 @@
             </p>
         </details>
     </aside>
+    <hr>
+    <article id="form">
+        <h2>Fill the form</h2>
+    <form action="https://httpbin.org/get" method="get">
+    <p>
+
+        <label for="firstname">firstname</label>
+        <input type="text" name="firstname" id="firstname" placeholder="nayan" autocomplete="on" required autofocus>
+    </p>
+    <p>
+
+        
+        
+        <label for="lastname">lastname</label>
+        <input type="text" name="lastname" id="lastname" placeholder="desai" autocomplete="on" required >
+    </p>
+<p>
+
+    <label for="passward">passward</label>
+    <input type="password" name="passward" id="passward" placeholder="Secreat" autocomplete="on" required >
+    
+</p>
+<p>
+    
+    <label for="PhoneNo">PhoneNo</label>
+    <input type="tel" name="PhoneNo" id="PhoneNo" placeholder="555-555-5555" autocomplete="on" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+</p>
+<p>
+    <label for="Birth year">Birth year</label>
+    <input type="number" name="Birth year" id="Birth year" autocomplete="on" required
+    min="1990" max="2022" step="10" value="2010">
+
+</p>
+<p>
+    <label for="favourite">favourite</label>
+    <select name="favourite" id="favourite">
+        <option value="coffie">coffie</option>
+        <option value="chai">chai</option>
+        <option value="bornvita">bornvita</option>
+    </select>
+</p>
+</form>
+</article>
+<hr>
+<a href="/lesson1.html">Home</a>
 </body>
 </html>
