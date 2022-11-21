@@ -9,3 +9,14 @@ p{
     padding: 0.5em;
     text-align: center;
 }
+div{
+    border: solid red;
+    width: 100px;
+    height: 100px;
+    outline:0.2px solid purple;
+    outline-offset: 0.2rem;
+    border-radius: 50%;
+    margin: 3px auto;
+    background-color: gold;
+    box-sizing: border-box;
+}
