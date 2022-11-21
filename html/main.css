@@ -1,5 +1,6 @@
 html{
-    font-size: 22px;
+    font-size: 20px;
+    font-style: normal;
 }
 body{
     background-color: black;
@@ -20,4 +21,12 @@ table,tr,th,td,caption{
     font-family:'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+pre
+{
+    color: antiquewhite;
+}
+h1{
+    color: royalblue;
+    background-color: red;
 }
