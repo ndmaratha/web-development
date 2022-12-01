@@ -1,0 +1,12 @@
+ul{
+    list-style-type: disc;
+    list-style-image: url(../images/idcard.jpeg);
+    list-style-position: inside;
+}
+ul li :nth-child(){
+    /*this is for highliting specific list item*/
+}
+/* shift +alt +a for comment */
+::marker{
+    content: "only 5rs";
+}

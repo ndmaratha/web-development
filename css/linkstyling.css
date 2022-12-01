@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+
+}
+a:visited{
+    color: rebeccapurple;
+
+}
+a:hover ,a:focus{
+    color:firebrick;
+    opacity: 0.8;
+}
+a:active{
+    color: red;
+
+}
