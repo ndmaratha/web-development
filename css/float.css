@@ -1,0 +1,27 @@
+.block{
+    width: 30vw;
+    height: 30vw;
+    padding: 1rem;
+
+}
+.left{
+    float: left;
+    /* to apply margin next to the float box */
+    margin-right: 1rem;
+}
+.right{
+    float: right;
+    /* to apply margin next to the float box */
+    margin-left: 1rem;
+}
+.clear{
+    clear: both;
+}
+.fs{
+ background-color: palevioletred;
+ display: flow-root;
+}
+.ss{
+ background-color: yellowgreen;
+ display: flow-root;
+}
