@@ -1,0 +1,27 @@
+.columns{
+    column-count: 5;
+    column-width: 150px;
+    column-rule: 3px solid red;
+    column-gap: 3rem;
+}
+.columns p{
+margin-top: 0;
+}
+.columns h2{
+    margin-top: 0;
+    background-color: rosybrown;
+    color: gold;
+    padding: 1rem;
+    break-inside: avoid;
+}
+/* do check the specificity calculator  */
+.columns .ab{
+    color: blue;
+    background-color: bisque;
+    column-span: all;
+    font-size: 3rem;
+    text-align: center;
+}
+.nowrap{
+    white-space: nowrap;
+}
