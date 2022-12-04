@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-size: 1.5rem;
+    min-height: 200vw;
+
+}
+
+.outer{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vw;
+    margin: 40px auto;
+}
+.inner{
+    border: 2px solid black;
+    width: 40vw;
+    height: 50vw;
+    margin: 200px auto;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}
+.absolute{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 50;
+}
+
+.relative{
+    background-color: red;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.fixed{
+    background-color: green;
+    position: fixed;
+    top: 10;
+    left: 0;
+}
+.sticky{
+    background-color: black;
+    position: sticky;
+    top: 10;
+    left: 0;
+}
+
+
+/* form here second content start */
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+   height: 100vw; 
+}
+.blue{ background-color: blue;}
+.red{ background-color: red;}
+.green{ background-color: green;}
+
+header,footer{
+    text-align: center;
+    height: 80px;
+    color: #fff;
+}
+header{
+    font-size: 4rem;
+    position: sticky;
+    top: 0;
+
+}
+footer{
+    font-size: 3rem;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+}
+.social{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    color: #fff;
+    background-color: black;
+    z-index: 1;
+    font-size: inherit;
+
+}
