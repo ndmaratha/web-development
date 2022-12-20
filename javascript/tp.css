@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-top: 2px;
+    padding: 1rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+div .search{
+    position: absolute;
+    top: 10;
+    border-radius: 2rem;
+    left: 40;
+}
